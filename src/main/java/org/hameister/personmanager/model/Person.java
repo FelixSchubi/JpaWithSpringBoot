@@ -15,6 +15,8 @@ public class Person {
     @Column(name = "name")
     String name;
 
+    @Column(name =  "a61")
+    String a61;
 
     @Column(name = "salary")
     Long salary;
@@ -40,6 +42,15 @@ public class Person {
 
     public void setName(String name) {
     this.name = name;
+    }
+
+
+    public String getA61() {
+        return a61;
+    }
+
+    public void setA61(String a61) {
+        this.a61 = a61;
     }
 
     public Long getSalary() {

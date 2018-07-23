@@ -33,7 +33,10 @@ public class PersonService {
             if(person.getBirthday()!=null) {
                 String birthday = person.getBirthday().format(formatter);
                 System.out.println("Der Geburtstag von " + person.getName() + " ist: " + birthday+ " und der Verdienst ist:"+ person.getSalary());
+                System.out.println("Hier kommt der Test:" + person.getA61());
             }
+            String x = "**************************************************************";
+			System.out.println(x);
         }
  
         return  salarySum / personList.size();
