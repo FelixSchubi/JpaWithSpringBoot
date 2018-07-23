@@ -2,6 +2,7 @@ package org.hameister;
 
 import java.time.LocalDate;
 
+import org.hameister.personmanager.newPersonFelix;
 import org.hameister.personmanager.model.Person;
 import org.hameister.personmanager.repo.PersonRepository;
 import org.hameister.personmanager.service.PersonService;
@@ -35,46 +36,15 @@ public class Analyzer {
 
 
     // Insert new Person into the Database
-//Felix:
-        Scanner eingabe = new Scanner(System.in);
 
-    System.out.println("Vorname der Person?");
-    String newPersonVorname = eingabe.next();
-
-    System.out.println("Nachname der Person?");
-    String newPersonNachname = eingabe.next();
-
-    String newPersonName = newPersonVorname + ' ' +  newPersonNachname;
-
-
-   
-
-  /** Meine Einngabe für neue Personen  */
-
-    System.out.println("Wann hat die Person Geburtstag");
-    System.out.println("YYYY-MM-DD");
-
-    String newPersonBirthday = eingabe.next();
-
-    
-    String[] parts = newPersonBirthday.split("-");
-    String year = parts[0]; 
-    String month = parts[1]; 
-    String day = parts [2];
-
-    int intYear = Integer.parseInt(year);
-    int intMonth = Integer.parseInt(month);
-    int intDay = Integer.parseInt(day);
-
-
-   System.out.println("Wie viel soll die Person verdienen?");
-    Long newPersonSalaray = eingabe.nextLong();
+    newPersonFelix newOne = new newPersonFelix();
 
     Person person = new Person();
+    
 
-    person.setName(newPersonName);
-    person.setBirthday(LocalDate.of(intYear, intMonth, intDay));
-    person.setSalary(newPersonSalaray);
+    person.setName(newOne.getName());
+    person.setBirthday(LocalDate.of(newOne.getBirYear(), newOne.getBirMonth(), newOne.getBirDay()));
+    person.setSalary(newOne.getSalary());
 
     Person newPerson = personService.addPerson(person);
 
