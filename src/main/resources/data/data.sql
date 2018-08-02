@@ -1,3 +1,4 @@
+
 INSERT INTO Person(name, a61, salary, birthday) values 
 ('Bart Simpson', 'FelixTest1','100', '1980-04-02');
 

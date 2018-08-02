@@ -3,12 +3,11 @@ package org.hameister;
 import java.time.LocalDate;
 
 import org.hameister.personmanager.newPersonFelix;
-import org.hameister.personmanager.model.Person;
+import org.hameister.personmanager.models.Person;
 import org.hameister.personmanager.repo.PersonRepository;
 import org.hameister.personmanager.service.PersonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import java.util.Scanner;
 
 /**
 * Created by hameister on 09.01.16.

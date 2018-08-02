@@ -36,20 +36,21 @@ public void setBirthday(){
     String year;
     String month;
     String day;
-
+    Integer tmp = 0;
 
             System.out.println("Wann hat die Person Geburtstag");
             System.out.println("YYYY-MM-DD");
 
             String newPersonBirthday = eingabe.next();
 
-            
+           
             String[] parts = newPersonBirthday.split("-");
             System.out.println(parts.length);
             if(parts.length > 3 || parts.length < 3) {
                 year = "2000";
                 month = "01";
                 day = "01";
+                tmp = 1;
             }
             else {   
 
@@ -58,9 +59,11 @@ public void setBirthday(){
             day = parts [2];
             }
             
-            System.out.println(year);
-            System.out.println(month);
-            System.out.println(day);
+            if(tmp == 1 ) {
+                System.out.println("Die alternativen Daten sind:");
+                System.out.println(year + "-" + month + "-" +day);
+            }
+            
 
 
 

@@ -1,7 +1,8 @@
+/home/felix/Schreibtisch/Arbeit/SERVER/SpringBoot/Jpa/PersonManager/src/main/java/org/hameister/personmanager/models/Person.java
 /home/felix/Schreibtisch/Arbeit/SERVER/SpringBoot/Jpa/PersonManager/src/main/java/org/hameister/Application.java
 /home/felix/Schreibtisch/Arbeit/SERVER/SpringBoot/Jpa/PersonManager/src/main/java/org/hameister/Analyzer.java
-/home/felix/Schreibtisch/Arbeit/SERVER/SpringBoot/Jpa/PersonManager/src/main/java/org/hameister/personmanager/model/Person.java
 /home/felix/Schreibtisch/Arbeit/SERVER/SpringBoot/Jpa/PersonManager/src/main/java/org/hameister/personmanager/repo/LocalDateConverter.java
 /home/felix/Schreibtisch/Arbeit/SERVER/SpringBoot/Jpa/PersonManager/src/main/java/org/hameister/personmanager/service/PersonService.java
 /home/felix/Schreibtisch/Arbeit/SERVER/SpringBoot/Jpa/PersonManager/src/main/java/org/hameister/personmanager/repo/PersonRepository.java
+/home/felix/Schreibtisch/Arbeit/SERVER/SpringBoot/Jpa/PersonManager/src/main/java/org/hameister/personmanager/models/PersonDao.java
 /home/felix/Schreibtisch/Arbeit/SERVER/SpringBoot/Jpa/PersonManager/src/main/java/org/hameister/personmanager/newPersonFelix.java

@@ -1,6 +1,6 @@
 package org.hameister.personmanager.service;
  
-import org.hameister.personmanager.model.Person;
+import org.hameister.personmanager.models.Person;
 import org.hameister.personmanager.repo.PersonRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
